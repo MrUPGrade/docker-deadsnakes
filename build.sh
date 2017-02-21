@@ -18,10 +18,9 @@ test_image() {
     docker run -it --rm mrupgrade/deadsnakes:$1 python --version
 }
 
-
 wget https://bootstrap.pypa.io/get-pip.py -O get-pip.py
 
-for VER in 2.6 2.7 3.3 3.4 3.5
+for VER in 2.6 2.7 3.3 3.4 3.5 3.6
 do
     if [ "$1" = 'gen' ]
     then
