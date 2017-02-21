@@ -15,7 +15,7 @@ If you want to build it yourself (specific version):
 docker build -t mrupgrade/deadsnakes:2.6 2.6/
 ```
 
-You can also build all versions available (2.6 2.7 3.3 3.4 3.5):
+You can also build all versions available (2.6 2.7 3.3 3.4 3.5 3.6):
 
 ```bash
 ./build.sh
